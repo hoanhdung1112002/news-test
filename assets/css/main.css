@@ -913,6 +913,7 @@ main {
   font-family: "Noto Sans JP";
   font-size: 16px;
   font-style: normal;
+  border-radius: 2px;
   font-weight: 500;
   line-height: 175%; /* 28px */
   letter-spacing: 0.64px;
