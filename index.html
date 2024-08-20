@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>register</title>
+	<link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+</head>
+<body>
+	<div id="wrapper">
+        <!-- header -->
+        <header id="header">
+            <a href="#!" class="logo">
+                <img src="./assets/images/global/logo.svg" alt="">
+            </a>
+            <!-- navigation -->
+            <nav class="navbar">
+                <img src="./assets/images/global/intersect.webp" alt="">
+                <ul>
+                    <li><a href="">
+                        <img src="./assets/images/global/user_icon.svg" alt="">
+                        <span>ログイン</span>
+                    </a></li>
+                    <li><a href="">
+                        <img src="./assets/images/global/shop_icon.svg" alt="">
+                        <span>カート</span>
+                    </a></li>
+                    <li><a href="" class="menu-open">
+                        <img src="./assets/images/global/bar_icon.svg" alt="">
+                        <span>メニュー</span>
+                    </a></li>
+                </ul>
+            </nav>
+            <!-- menu -->
+            <nav class="menu">
+                <ul>
+                  <li><a href="#">ホームページ</a></li>
+                  <li><a href="#">導入</a></li>
+                  <li><a href="#">ニュース</a></li>
+                  <li><a href="#">接触</a></li>
+                  <li><a href="#">私たちについて</a></li>
+               </ul>
+               <a href="#" class="menu-close">
+                <img src="./assets/images/global/close.svg" alt="close">
+               </a>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <!-- breadcrumb -->
+                <section class="breadcrumb">
+                    <ul>
+                        <li><a href="">TOP</a></li>
+                        <li>会員登録</li>
+                    </ul>
+                </section>
+                <!-- content -->
+                <section class="register">
+                   <div class="register-container">
+					<div class="cta-form">
+						<h2>会員登録</h2>
+						<p>Coluluをご利用いただき、ありがとうございます。<br>
+						会員登録いただくと会員様限定キャンペーン等、お得にお買い物いただけます。</p>
+					</div>
+					<form action="">
+						<div class="form-main">
+							<div class="form-group">
+								<label for="">姓
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="性">
+							</div>
+							<div class="form-group">
+								<label for="">名
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="名">
+							</div>
+							<div class="form-group">
+								<label for="">姓（カナ）
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="性（カナ）">
+							</div>
+							<div class="form-group">
+								<label for="">名（カナ）
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="名（カナ）">
+							</div>
+							<div class="form-group">
+								<label for="">電話番号
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="00000000000">
+							</div>
+							<div class="form-group">
+								<label for="">メールアドレス
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="email" placeholder="example@colulu.com">
+							</div>
+							<div class="form-group half-form">
+								<label for="">パスワード
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<div class="form-group-inner">
+									<input class="password-field" type="password" placeholder="半角英数字8文字以上">
+									<img class="toggle-password" src="./assets/images/register/field-icon.svg" alt="">
+								</div>
+								
+							</div>
+							<div class="form-group half-form">
+								<div class="form-zip-code">
+									<label for="">郵便番号
+										<span class="tag-obligatory">必須</span>
+									</label>
+									<span>ハイフンを入れて入力してください</span>
+								</div>
+								<input type="text" placeholder="000-0000">
+							</div>
+							<div class="form-group">
+								<label for="">住所
+									<span class="tag-obligatory">必須</span>
+								</label>
+								<input type="text" placeholder="">
+							</div>
+							<div class="form-group">
+								<label for="">性別</label>
+								<ul class="form-check">
+									<li>
+										<input type="radio" name="gender" id="male">
+										<label for="">男性</label>
+									</li>
+									<li>
+										<input type="radio" name="gender" id="female">
+										<label for="">女性</label>
+									</li>
+									<li>
+										<input type="radio" name="gender" id="others">
+										<label for="">その他</label>
+									</li>
+									<li>
+										<input type="radio" name="gender" id="no-answer">
+										<label for="">無回答</label>
+									</li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<label for="">生年月日</label>
+								<ul class="form-select">
+									<li>
+										<select name="" id="year">
+											<option selected>年</option>
+											<option>年</option>
+											<option>年</option>
+										</select>
+									</li>
+									<li>
+										<select name="" id="month">
+											<option selected>月</option>
+											<option>年</option>
+											<option>年</option>
+										</select>
+									</li>
+									<li>
+										<select name="" id="date">
+											<option selected>日</option>
+											<option>年</option>
+											<option>年</option>
+										</select>
+									</li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<label for="">お子様の情報1：性別</label>
+								<ul class="form-check">
+									<li>
+										<input type="radio" name="children-gender" id="boy">
+										<label for="">男の子</label>
+									</li>
+									<li>
+										<input type="radio" name="children-gender" id="girl">
+										<label for="">女の子</label>
+									</li>
+									<li>
+										<input type="radio" name="children-gender" id="child-others">
+										<label for="">その他</label>
+									</li>
+									<li>
+										<input type="radio" name="children-gender" id="child-no-answer">
+										<label for="">無回答</label>
+									</li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<label for="">お子様の情報1：生年月日</label>
+								<ul class="form-select">
+									<li>
+										<select name="" id="child-year">
+											<option selected>年</option>
+											<option >年</option>
+											<option >年</option>
+										</select>
+									</li>
+									<li>
+										<select name="" id="child-month">
+											<option selected>月</option>
+											<option >年</option>
+											<option >年</option>
+										</select>
+									</li>
+									<li>
+										<select name="" id="child-date">
+											<option selected>日</option>
+											<option >年</option>
+											<option >年</option>
+										</select>
+									</li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<a href="#!" class="add-info" target="_blank">お子様の情報を追加</a>
+							</div>
+							<div class="form-group form-policy">
+								<input type="checkbox" name="" id="" class="check-policy">
+								<a href="#" class="privacy-policy">
+									プライバシーポリシー
+								</a>
+								<span for="">に同意して登録する</span>
+							</div>
+						</div>
+						<!-- submit -->
+						<div class="form-submit">
+							<button type="submit" class="btn btn-register">登録する</button>
+						</div>
+					</form>
+				   </div> 
+                </section>   
+            </div>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <a href="" class="footer-logo">
+                        <img src="./assets/images/global/footer-logo.svg" alt="">
+                    </a>
+                    <ul>
+                        <li><a href="">
+                            <img src="./assets/images/global/instagram.svg" alt="">
+                        </a></li>
+                        <li><a href=""><img src="./assets/images/global/x.svg" alt=""></a></li>
+                        <li><a href=""><img src="./assets/images/global/tiktok.svg" alt=""></a></li>
+                        <li><a href=""><img src="./assets/images/global/youtube.svg" alt=""></a></li>
+                    </ul>
+                    <p>フォローして、子育て情報・キャンペーン情報をチェック！</p>
+                </div>
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#" class="font-24 mb-32">Top <span>/ トップ</span></a></li>
+                            <li><a href="#" class="font-24 mb-32">Column <span>/ 特集</span></a></li>
+                            <li><a href="#" class="font-24">News <span>/  お知らせ</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#" class="font-24">Items <span>/ 商品</span></a></li>
+                            <li><a href="#" class="font-18"><img src="./assets/images/global/orthogonal.svg" alt="">airluv <span>/ エアラブ</span></a></li>
+                            <li><a href="#" class="font-18"><img src="./assets/images/global/orthogonal.svg" alt="">Colulu <span>/ コルル</span></a></li>
+                            <li><a href="#" class="font-18"><img src="./assets/images/global/orthogonal.svg" alt="">BISARA <span>/ ビサラ</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#">会社概要</a></li>
+                            <li><a href="#">ご利用ガイド</a></li>
+                            <li><a href="#">よくある質問</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="#">特定商取引法に基づく表記</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                            <li><a href="#">利用規約</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- copy-right -->
+            <p class="copy-right">&copy;2024 Colulu</p>
+        </footer>
+    </div>
+	<script src="assets/js/jquery-3.5.0.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>

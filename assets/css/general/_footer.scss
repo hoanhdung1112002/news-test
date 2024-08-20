@@ -1,0 +1,266 @@
+/* footer */
+#footer {
+    padding-bottom: 28px;
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        gap: 0 240px;
+        padding-top: 198px;
+        padding-bottom: 140px;
+        padding-left: 240px;
+        padding-right: 397px;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0.12em;
+            text-align: center;
+            color: #797271;
+        }
+    }
+    .footer-logo {
+        display: block;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .footer-grid {
+        display: flex;
+        gap: 0 80px;
+    }
+    .footer-column {
+        li a {
+            display: inline-block;
+            margin-bottom: 16px;
+            white-space: nowrap;
+        }
+        li img {
+            vertical-align: 7px;
+            margin-right: 6px;
+        }
+        a, span {
+            font-family: 'Tsukushi A Round Gothic';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            color: #797271;
+        }
+        a {
+            display: inline-block;
+            margin-bottom: 16px;
+            font-family: 'Tsukushi A Round Gothic';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            color: #797271;
+            text-decoration: none;
+            white-space: nowrap;
+            &.font-24 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 42px;
+            }
+            &.font-18 {
+                font-size: 18px;
+                line-height: 31.5px;
+            }
+            &.mb-32 {
+                margin-bottom: 32px;
+                display: inline-block;
+            }
+        }
+    }
+    p.copy-right {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.5px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: #797271;
+        transform: translateX(-29px);
+    }
+}
+
+@media (max-width: 767px){
+    #footer {
+        padding: 3vw 2.611vw;
+        .footer-container {
+            padding: 4vw 2.8vw;
+            width: 100%;
+            margin: 0 auto;
+            gap: 6vw 0;
+            flex-direction: column;
+        }
+        .footer-info {
+            align-items: center;
+            ul {
+                gap: 0 4.439vw;
+                margin-bottom: 4.5vw;
+                img {
+                    width: 5vw;
+                    height: 5vw;
+                }
+            }
+            p {
+                font-size: 2.5vw;
+            }
+        }
+        .footer-logo {
+            max-width: 50vw;
+            margin-bottom: 5vw;
+            img {
+                width: 100%;
+            }
+        }
+        .footer-grid {
+            flex-direction: column;
+            align-items: center;
+            gap: 2.611vw 0;
+        }
+        .footer-column {
+            width: 100%;
+            text-align: center;
+            li a, li span {
+                font-size: 3.733vw;
+                margin-bottom: 2.35vw;
+                line-height: 1.5;
+            }
+            a.font-18, a.font-24 {
+                font-size: 4vw;
+                line-height: 1.5;
+            }
+            a.mb-32 {
+                margin-bottom: 2.35vw;
+            }
+            li img {
+                margin-right: 0.522vw;
+                vertical-align: 0.522vw;
+                height: 1.567vw;
+                width: 1.305vw;
+            }
+        }
+        p.copy-right {
+            font-size: 2.5vw;
+            transform: translateX(0);
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    #footer{
+        padding-top: 80px;
+        .footer-container {
+            padding: 40px 20px;
+            width: 100%;
+            margin: 0 auto;
+            gap: 40px 0;
+            flex-direction: column;
+        }
+        .footer-logo {
+            max-width: 300px;
+            margin-bottom: 30px;
+            img {
+                width: 100%;
+            }
+        }
+        .footer-info {
+            align-items: center;
+            ul img {
+                width: 28px;
+                height: 28px;
+            }
+        }
+        .footer-grid {
+            flex-direction: row;
+            gap: 20px 80px;
+            justify-content: center;
+        }
+        .footer-column {
+            text-align: left;
+            a {
+                font-size: 20px;
+            }
+            a.mb-32 {
+                margin-bottom: 24px;
+            }
+            li img {
+                margin-right: 6px;
+                vertical-align: 6px;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    #footer {
+    .footer-container {
+      padding: 40px 20px;
+      width: 100%;
+      margin: 0 auto;
+      gap: 60px 0;
+      flex-direction: column;
+    }
+    .footer-logo {
+      max-width: 300px;
+      margin-bottom: 30px;
+      img {
+        width: 100%;
+      }
+    }
+    .footer-info {
+      align-items: center;
+      ul img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+    .footer-grid {
+      flex-direction: row;
+      gap: 20px 100px;
+      justify-content: center;
+    }
+    .footer-column {
+      text-align: left;
+      a {
+        font-size: 20px;
+      }
+      a.mb-32 {
+        margin-bottom: 24px;
+      }
+      li img {
+        margin-right: 6px;
+        vertical-align: 6px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px){
+  #footer {
+    .footer-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .footer-logo {
+        max-width: 320px;
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+    }
+  }
+}

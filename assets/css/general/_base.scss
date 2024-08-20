@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Noto+Sans+JP:wght@100..900&family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'TsukushiARoundGothic';
+    src: url('../fonts/Tsukushi\ A\ Round\ Gothic\ Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #FFFDFB 30.44%, #F4EBDF 99.99%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.half-form {
+    max-width: 482px;
+}
+
+@media (max-width: 767px){
+    .container {
+        padding-left: 5.128vw;
+        padding-right: 5.128vw;
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Tsukushi A Round Gothic';
+    src: url('TsukushiARoundGothic-Regular.woff2') format('woff2'),
+        url('TsukushiARoundGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

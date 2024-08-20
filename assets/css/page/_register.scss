@@ -1,0 +1,416 @@
+.register {
+    margin-bottom: 120px;
+    &-container {
+        max-width: 858px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cta-form {
+        margin-bottom: 80px;
+        h2 {
+            margin-bottom: 24px;
+            color:#797271;
+            font-family: "Noto Sans JP";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 175%; /* 56px */
+            letter-spacing: 3.2px;
+        }
+        p {
+            color: #797271;
+            text-align: center;
+            font-family: "Noto Sans JP";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 175%; /* 35px */
+            letter-spacing: 0.4px;
+        }
+    }
+    form {
+        margin-bottom: 120px;
+        .form-main {
+            display: flex;
+            flex-direction: column;
+            gap: 40px 0;
+            margin-bottom: 160px;
+        }
+        .form-group {
+            text-align: left;
+            > label {
+                display: block;
+                width: 100%;
+                position: relative;
+                color: #797271;
+                font-family: "Noto Sans JP";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                letter-spacing: 0.48px;
+                line-height: normal;
+                text-align: left;
+                margin-bottom: 16px;
+            }
+            .tag-obligatory {
+                position: absolute;
+                display: inline-block;
+                margin-left: 16px;
+                padding: 2px 12px 3px;
+                color: #fff;
+                background-color: #797271;
+                font-family: "Noto Sans JP";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 175%; /* 28px */
+                letter-spacing: 0.64px;
+            }
+            input {
+                width: 100%;
+                height: 80px;
+                flex: 0;
+                padding-top: 21.11px;
+                padding-bottom: 20px;
+                padding-left: 28.61px;
+                padding-right: 28.61px;
+                border-radius: 40px;
+                border: 1px solid #797271;
+                background: #FFF;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 34.75px;
+                font-family: "Noto Sans JP", sans-serif;
+            }
+            .form-check {
+                display: flex;
+                gap: 0 36px;
+                padding: 22px 0;
+                label {
+                    color: #797271;
+                    font-family: "Noto Sans JP";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                input {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
+                    border-color: #797271;
+                    cursor: pointer;
+                    &:checked {
+                        accent-color: #797271;
+                    }
+                }
+            }
+            .form-select {
+                display: flex;
+                gap: 0 24px;
+                #month, 
+                #date,
+                #child-month,
+                #child-date {
+                    padding-top: 19px;
+                    padding-bottom: 26px;
+                }
+                select {
+                    width: 270px;
+                    height: 80px;
+                    padding: 0 23.73px;
+                    position: relative;
+                    flex-shrink: 0;
+                    border-radius: 40px;
+                    border: 1px solid #797271;
+                    outline: none;
+                    background-color: #FFF;
+                    color: var(--Dark-gray, #797271);
+                    font-family: "Noto Sans JP";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    outline: none;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    background: url("../../../assets/images/register/arrow-up.svg") no-repeat;
+                    background-position: calc(100% - 24px) center;
+                    background-size: auto;
+                    &::-ms-expand {
+                        display: none;
+                    }
+                    
+                }
+                option {
+                    color: #797271;
+                    font-family: "Noto Sans JP";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+            }
+        }
+        .form-group-inner {
+            position: relative;
+            input {
+                border: 1px solid #797271;
+                padding-left: 24.1px;
+            }
+            img {
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 24px;
+                transform: translateY(-50%);
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        .add-info {
+            padding: 13px 20px;
+            display: inline-block;
+            color:#797271;
+            font-family: "Noto Sans JP";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.32px;
+            text-decoration: none;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 10px;
+            border: 1px solid #797271;
+            background: #FFF;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }    
+        
+    }
+    .privacy-policy {
+        color: #1D96D6;
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-decoration-line: underline;
+    }
+    span {
+        color: #797271;
+        font-family: "Noto Sans JP";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.4px;
+    }
+    .form-policy {
+        display: flex;
+        align-items: center;
+        gap: 0 12px;
+        > input.check-policy {
+            min-width: 24px;
+            height: 24px;
+            cursor: pointer;
+            &:checked {
+                accent-color: #797271;
+            }
+        }
+    }
+    .form-zip-code {
+        display: flex;
+        margin-bottom: 16px;
+        gap: 0 89px;
+        label {
+            color: #797271;
+            font-family: "Noto Sans JP";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34.75px;
+            letter-spacing: 0.02em;
+        }
+        span {
+            color: var(--Dark-gray, #797271);
+            font-family: "Noto Sans JP";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 35.2px;
+            letter-spacing: 0.48px;
+        }
+    }
+    .btn-register {
+        max-width: 360px;
+        padding: 15px 132px;
+        color: #FFF;
+        font-family: 'Tsukushi A Round Gothic';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 175%; /* 42px */
+        outline: none;
+        border: none;
+        border-radius: 45px;
+        background: #B2CE7C;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .register {
+        margin-bottom: 15.385vw;
+        .cta-form {
+            margin-top: 7.179vw;
+            margin-bottom: 7.179vw;
+            h2 {
+                font-size: 5.128vw;
+                margin-bottom: 2.564vw;
+            }
+            p {
+                font-size: 4.103vw;
+            }
+            br {
+                display: none;
+            }
+        }
+        form {
+            gap: 5.222vw 0;
+            margin-bottom: 7.692vw;
+            .form-main {
+                gap: 5.128vw 0;
+                margin-bottom: 15.385vw;
+            }
+            .form-group {
+                > label {
+                    font-size: 3.5vw;
+                    margin-bottom: 3vw;
+                }
+                .tag-obligatory {
+                    margin-left: 2.089vw;
+                    font-size: 2.564vw;
+                    line-height: 1.5;
+                    padding: 0.261vw 1.567vw 0.392vw;
+                    border-radius: 1.026vw;
+                }
+                input {
+                    height: 12vw;
+                    padding-top: 3vw;
+                    padding-bottom: 3vw;
+                    padding-left: 3.735vw;
+                    padding-right: 3.735vw;
+                    border-radius: 5.222vw;
+                    font-size: 3.5vw;
+                    color: #797271;
+                }
+                .form-check {
+                    gap: 0 4.7vw;
+                    padding: 2.937vw 0;
+                    li {
+                        display: flex;
+                        align-items: center;
+                    }
+                    label {
+                        font-size: 3.5vw;
+                    }
+                    input {
+                        min-width: 5.128vw;
+                        min-height: 5.128vw;
+                        margin-right: 8px;
+                        border-color: #797271;
+                    }
+                }
+                .form-select {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6.154vw 0;
+                    #month, 
+                    #date,
+                    #child-month,
+                    #child-date {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                    }
+                    select {
+                        width: 100%;
+                        height: 12vw;
+                        padding: 0 3.098vw;
+                        font-size: 3.5vw;
+                    }
+                    option {
+                        font-size: 3.5vw;
+                    }
+                }
+            }
+            .add-info {
+                padding: 3.59vw 5.128vw;
+                font-size: 3.5vw;
+            }      
+        }
+        .privacy-policy {
+            font-size: 3.333vw;
+        }
+        span {
+            font-size: 4.103vw;
+        }
+        .form-policy {
+            gap: 0 2.564vw;
+            > input.check-policy {
+                min-width: 5.128vw;
+                height: 5.128vw;
+            }
+        }
+        .form-group-inner {
+            img {
+                right: 6.154vw;
+                width: 6.154vw;
+            }
+        }
+        .form-zip-code {
+            margin-bottom: 4.103vw;
+            gap: 0 14.872vw;
+            align-items: center;
+            label {
+                font-size: 3.5vw;
+            }
+            span {
+                font-size: 2.564vw;
+            }
+        }
+        .btn-register {
+            padding: 12px 100px;
+            font-size: 4.103vw;
+            font-weight: 500;
+        }
+    }
+    
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .register {
+        margin-bottom: 40px;
+        .form-group {
+            .form-select {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px 30px;
+                flex-wrap: wrap;
+            }
+            select {
+                min-width: 300px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
